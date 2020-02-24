@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-import Animal.class;
-import Dog.class;
+import Animal;
+import Dog;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;

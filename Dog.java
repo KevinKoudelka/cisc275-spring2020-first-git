@@ -1,4 +1,4 @@
-import Animal.class
+import Animal;
 
 public class Dog extends Animal {
 	String name;
@@ -10,5 +10,5 @@ public class Dog extends Animal {
 	}
 	public int getLegs() {
 		return Legs;
-}
+	}
 }
