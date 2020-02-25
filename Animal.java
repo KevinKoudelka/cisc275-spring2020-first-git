@@ -1,7 +1,10 @@
+
 public class Animal {
+	String name;
 	public int Legs;
 	
-	Animal(int x) {
+	Animal(String n, int x) {
+		this.name = n;
 		this.Legs = x;
 	}
 	public int getLegs() {

@@ -1,12 +1,10 @@
-import Animal;
+
 
 public class Dog extends Animal {
 	String name;
-	int Legs;
-	
-	Dog(string n, int l) {
-		this.name = n;
-		this.Legs = l;
+	int Legs;	
+	Dog(String n, int l) {
+		super(n, l);
 	}
 	public int getLegs() {
 		return Legs;
