@@ -10,6 +10,9 @@ public class Animal {
 	public int getLegs() {
 		return Legs;
 }
+	public String toString() {
+	return name + " " + Legs;
+}
 }
 
 
