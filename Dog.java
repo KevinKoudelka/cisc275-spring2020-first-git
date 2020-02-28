@@ -2,11 +2,15 @@
 
 public class Dog extends Animal {
 	String name;
-	int Legs;	
+
 	Dog(String n, int l) {
-		super(n, l);
+		super(l);
+		this.name = n;
 	}
 	public int getLegs() {
 		return Legs;
 	}
+	public String toString() {
+        return name + " " + Legs;
+}
 }

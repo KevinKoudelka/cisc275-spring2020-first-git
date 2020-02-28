@@ -1,17 +1,12 @@
 
 public class Animal {
-	String name;
-	public int Legs;
+	int Legs;
 	
-	Animal(String n, int x) {
-		this.name = n;
+	Animal(int x) {
 		this.Legs = x;
 	}
 	public int getLegs() {
 		return Legs;
-}
-	public String toString() {
-	return name + " " + Legs;
 }
 }
 
