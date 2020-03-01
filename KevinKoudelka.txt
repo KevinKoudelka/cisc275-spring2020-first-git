@@ -1,2 +1,7 @@
 GitHub Account: KevinKoudelka
 URL: https://github.com/KevinKoudelka/cisc275-spring2020-first-git
+
+Exercise in the beginning:
+git add the modified and untracked files
+git commit the changes
+then git push
